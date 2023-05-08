@@ -3,7 +3,10 @@ class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+        
 class Solution(object):
+    
+    #변환된 연결 리스트를 합하는 함수
     def addTwoNumbers(self, l1, l2):
         str1, str2 = "", ""
         while l1 or l2:
@@ -20,7 +23,8 @@ class Solution(object):
         res = list(map(int, str(res)))
 
         return self.toList(res)
-
+    
+    #입력받은 리스트를 연결 리스트로 변환하는 함수
     def toList(self, list):
         nodeList = ListNode()
         for i, val in enumerate(list):
@@ -42,9 +46,8 @@ nodelist2 = s.toList(li2)
 
 result = s.addTwoNumbers(nodelist1, nodelist2)
 r = []
+
 while result:
     r.append(result.val)
     result = result.next
-print(r)
-print(divmod(23, 10))
-#divmod = 튜플로 리턴 처음은 몫, 나머지
+    
