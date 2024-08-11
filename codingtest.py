@@ -48,6 +48,8 @@ result = s.addTwoNumbers(nodelist1, nodelist2)
 print(result)
 r = []
 
+add_num=[]
+
 while result:
     r.append(result.val)
     result = result.next
