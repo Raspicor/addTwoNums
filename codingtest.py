@@ -49,7 +49,7 @@ print(result)
 r = []
 
 add_num=[s]
-
+slsah=[]
 while result:
     r.append(result.val)
     result = result.next
