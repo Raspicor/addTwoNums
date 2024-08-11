@@ -48,7 +48,7 @@ result = s.addTwoNumbers(nodelist1, nodelist2)
 print(result)
 r = []
 
-add_num=[s]
+add_num=[1]
 
 while result:
     r.append(result.val)
