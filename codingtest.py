@@ -45,12 +45,11 @@ nodelist1 = s.toList(li1)
 nodelist2 = s.toList(li2)
 
 result = s.addTwoNumbers(nodelist1, nodelist2)
-print(result)
 r = []
 
-add_num=[]
-
+add_num=[s]
+slsah=[]
 while result:
     r.append(result.val)
     result = result.next
-    
+print(result)
