@@ -52,5 +52,6 @@ add_num=[]
 
 while result:
     r.append(result.val)
+    print(r)
     result = result.next
     
